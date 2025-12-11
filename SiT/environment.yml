@@ -1,0 +1,12 @@
+name: SiT
+dependencies:
+  - python >= 3.8
+  - pytorch >= 1.13
+  - torchvision
+  - pip
+  - pip:
+    - timm
+    - diffusers
+    - accelerate
+    - torchdiffeq
+    - wandb
