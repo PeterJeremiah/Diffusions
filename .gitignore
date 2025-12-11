@@ -1,0 +1,44 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+*.swp
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS temporary files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Model files
+*.ckpt
+*.pt
+*.pth
+*.bin
+
+# Output folders
+outputs/
+results/
+runs/
+checkpoints/
+
+# Large datasets (put your path here)
+data/
+
+# Distribution / build
+build/
+dist/
+*.egg-info/
