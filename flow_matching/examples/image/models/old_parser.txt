@@ -1,0 +1,18 @@
+    "imagenet": {
+        "in_channels": 1,#3
+        "model_channels": 192,#192,小
+        "out_channels": 1,#3
+        "num_res_blocks": 3,#3小
+        "attention_resolutions": [2, 4, 8],#[2, 4, 8]
+        "dropout": 0.1,
+        "channel_mult": [1, 2, 3, 4],#[1, 2, 3, 4]
+        "num_classes": None,#1000
+        "use_checkpoint":True,#False
+        "cond_dim":208,#新添加signal
+        "num_heads": 4,#4
+        "num_head_channels": 64,
+        "use_scale_shift_norm": True,
+        "resblock_updown": True,
+        "use_new_attention_order": True,
+        "with_fourier_features": False,
+    },
